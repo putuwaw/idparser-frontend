@@ -37,7 +37,9 @@ export default function App(){
                         <div className='mt-3'>
                             <h5>Hasil</h5>
                             <p>String <code>{ result }</code> adalah { data }</p>
-                            <Graphviz options={{height: 300, width: 300}} dot={graph} />
+                            {data === 'String palindrome' &&
+                                <Graphviz options={{height: 300, width: 300}} dot={graph} />
+                            }
                         </div>
                     }
                 </Col>

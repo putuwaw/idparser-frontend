@@ -1,3 +1,21 @@
+# idParser-Frontend
+
+<img src="https://github.com/putuwaw/idparser-frontend/blob/main/public/logo192.png" width="150px;" alt="Logo IdParser"/>
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+![Forks](https://img.shields.io/github/forks/putuwaw/idparser-frontend?style=for-the-badge)
+![Contributors](https://img.shields.io/github/contributors/putuwaw/idparser-frontend?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/putuwaw/idparser-frontend?style=for-the-badge)
+
+Frontend Repository for "idParser", Web Based Indonesian Sentence Syntactic Parsing using CYK Algorithm with Table Filling Method.
+
+Backend: [idparser-backend](https://github.com/putuwaw/idparser-backend)
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

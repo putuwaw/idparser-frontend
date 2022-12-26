@@ -14,75 +14,76 @@ Frontend Repository for "idParser", Web Based Indonesian Sentence Syntactic Pars
 
 Backend: [idparser-backend](https://github.com/putuwaw/idparser-backend)
 
-<hr>
+## Features💡
+By using idParser-Frontend you can:
+- [x] Checks whether a sentence is valid or not.
+- [x] Get the triangular table from table filling method.
+- [x] Get the parse tree of the sentence (if the sentence is valid).
 
-# Getting Started with Create React App
+## Technology 👨‍💻
+idParser-Frontend is created using:
+- [React](https://reactjs.org/) - React is a JavaScript library for building user interfaces.
+- [React-Bootstrap](https://react-bootstrap.github.io/) - React-Bootstrap is a frontend framework that replaces the Bootstrap JavaScript.
+- [Tailwind CSS](https://tailwindcss.com/) - Tailwind CSS is a utility-first CSS framework packed with classes.
+- [Vercel](https://vercel.com/) - Vercel is a cloud platform that we use to deploy our apps.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Structure 📂
+```
+idparser-frontend
+├── .github
+├── public
+├── src
+├── .gitignore
+├── LICENSE
+├── README.md
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+└── tailwind.config.js
+```
+- [.github](.github/) is a folder that used to place Github related stuff, like issue template and CI pipeline.
+- [public](public/) contains static files, such as the HTML file and favicon.
+- [src](src/) is the main folder that contain components, styles, tests, and others.
+- [.gitignore](.gitignore) is a file to exclude some folders like node_modules.
+- [LICENSE](LICENSE) is a file that contains the license we use in this app.
+- [README.md](README.md) is the file you are reading now.
+- [package-lock.json](package-lock.json) is a file for locking the dependency with the installed version.
+- [package.json](package.json) is a file that contains important metadata and dependencies about this app.
+- [postcss.config.js](postcss.config.js) is a file that contains configuration for PostCSS.
+- [tailwind.config.js](tailwind.config.js) is a file that contains configuration for Tailwind CSS.
 
-## Available Scripts
+## Requirements 📦
+- React 18.2.0 or later
+- React-Bootstrap v2.7.0 or later
+- Tailwind CSS v3.2.4 or later
+- Node.js v16.15.1 or later
+- npm 8.13.2 or later
 
-In the project directory, you can run:
+# Installation 🛠️
+- Clone the repository:
+```
+git clone https://github.com/putuwaw/idparser-frontend.git
+```
+- Install dependencies:
+```
+npm install
+```
+- Run the app:
+```
+npm run start
+```
+- Open web browser and visit:
+```
+localhost:3000
+```
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors ✨
+<br>
+<table align="center">
+  <tr>
+    <td align="center"><a href="https://github.com/putuwaw"><img src="https://avatars.githubusercontent.com/u/90038606?v=4" width="150px;" alt=""/><br><sub><b>Putu Widyantara</b></sub></td> 
+    <td align="center"><a href="https://github.com/KEVINMOSESWALELENG"><img src="https://avatars.githubusercontent.com/u/103045275?v=4" width="150px;" alt=""/><br><sub><b>Kevin Moses</b></sub></td> 
+    <td align="center"><a href="https://github.com/Antoniusata"><img src="https://avatars.githubusercontent.com/u/103051993?v=4" width="150px;" alt=""/><br><sub><b>Antonius Ata</b></sub></td>
+    <td align="center"><a href="https://github.com/YogaLaksana"><img src="https://avatars.githubusercontent.com/u/103047470?v=4" width="150px;" alt=""/><br><sub><b>Yoga Laksana</b></sub></td>
+  </tr>
+</table>

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Form, Table } from "react-bootstrap";
 import hero from "../images/hero.png";
 import axios from "axios";
 import { useState } from "react";
 import { Graphviz } from "graphviz-react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 function Parser() {
   const [input, setInput] = useState("");
@@ -28,12 +30,16 @@ function Parser() {
     setStaticInput(input);
   };
 
+  useEffect(() => {
+    Aos.init();
+  }, [])
+
   return (
     <Container fluid className="min-h-screen z-0">
       <Container fluid="lg" className="z-20 font-poppins bg-transparent">
-        <Row>
+        <Row >
           <div className="absolute top-0 left-0 -z-10 bg-[#DCEFFD] lg:rounded-b-full h-[80vh]"></div>
-          <Col lg={8} className="m-auto text-center z-30">
+          <Col data-aos="fade-up" lg={8} className="m-auto text-center z-30">
             <h1 className="text-slate-900 font-bold py-3 lg:mt-10">
               Parsing Kalimat
             </h1>
@@ -65,12 +71,12 @@ function Parser() {
             </div>
           </Col>
           <Col lg={4} className=" hidden lg:block absolute right-28 top-20 z-0">
-            <img src={hero} alt="Hero" className="w-full" />
+            <img data-aos="fade-up" src={hero} alt="Hero" className="w-full" />
           </Col>
         </Row>
       </Container>
 
-      <Container fluid="lg" className="z-50 font-poppins">
+      <Container fluid="lg" className="z-100 font-poppins lg:pt-28">
         {result === null ? null : (
           <div className="mt-3 lg:p-20 font-poppins">
             <h1 className="text-center font-bold lg:mb-6">Hasil Parsing</h1>
